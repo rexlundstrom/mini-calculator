@@ -54,6 +54,107 @@ const divide = () => {
   }
 };
 
+// NUMBERS //
+
+const one = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 1;
+    document.getElementById("firstNumber").value = 1;
+  } else {
+    resultsDiv.innerHTML += 1;
+    document.getElementById("firstNumber").value += 1;
+  }
+
+  let num1 = document.getElementById("firstNumber").value;
+  let num2 = document.getElementById("secondNumber").value;
+
+};
+
+const two = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 2;
+  } else {
+    resultsDiv.innerHTML += 2;
+  }
+};
+
+const three = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 3;
+  } else {
+    resultsDiv.innerHTML += 3;
+  }
+};
+
+const four = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 4;
+  } else {
+    resultsDiv.innerHTML += 4;
+  }
+};
+
+const five = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 5;
+  } else {
+    resultsDiv.innerHTML += 5;
+  }
+};
+
+const six = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 6;
+  } else {
+    resultsDiv.innerHTML += 6;
+  }
+};
+
+const seven = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 7;
+  } else {
+    resultsDiv.innerHTML += 7;
+  }
+};
+
+const eight = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 8;
+  } else {
+    resultsDiv.innerHTML += 8;
+  }
+};
+
+const nine = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML == 0) {
+    resultsDiv.innerHTML = 9;
+  } else {
+    resultsDiv.innerHTML += 9;
+  }
+};
+
+const zero = () => {
+  let resultsDiv = document.getElementById("results");
+  if (resultsDiv.innerHTML != 0) {
+    resultsDiv.innerHTML += 0;
+  }
+};
+
+const clearAll = () => {
+  let resultsDiv = document.getElementById("results");
+  resultsDiv.innerHTML = 0;
+};
+
 const sumAll = () => {
   let numStr = document.getElementById("numberSeries").value;
   let resultsDiv = document.getElementById("results");
